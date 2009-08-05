@@ -1,0 +1,16 @@
+HEY! STOP!! THIS DOESN'T ACTUALLY WORK YET. LIKE NOT AT ALL.
+
+The goal is to create a generic OAuth subclass for use as a single sign-on
+provider with Google AppEngine (GAE) applications. It is modeled on a similar
+package that I wrote for use with the Flickr Auth API:
+
+http://github.com/straup/gae-flickrapp/tree/master
+
+Right now, the goal is just to clone whatever Richard Crowley did for his
+django-twitterauth package:
+
+http://github.com/rcrowley/django-twitterauth/tree/master
+
+Once that's all done, the whole thing *may* be ripped apart again to create a
+generic DelegatedAuthApp that both gae-FlickrApp and gae-OAuthApp can use. We'll
+see...
